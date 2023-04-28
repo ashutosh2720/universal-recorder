@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    background-color: rgb(3, 11, 41);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.nav .social ul li {
+    display: inline;
+    padding: 20px;
+}

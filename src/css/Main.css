@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: 'Castoro Titling', cursive;
+}
+
+.main .left {
+    min-width: 30vw;
+    min-height: 90vh;
+    background-color: rgba(7, 7, 35, 0.993);
+    color: white;
+}
+
+.main .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 70vw;
+    min-height: 90vh;
+    background-color: rgba(4, 4, 27, 0.993);
+    color: white;
+}
+
+.main .right .recording-area {
+    height: 300px;
+    width: 500px;
+    border: 1px solid white;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: rgb(193, 58, 4);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+}
