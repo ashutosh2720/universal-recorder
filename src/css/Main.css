@@ -98,6 +98,30 @@ button {
     
 }
 
-@media screen and (max-width:940px) and (min-width) {
+@media (200px <= width <= 529px){
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main .left{
+        width:100vw;
+        min-height:10vh;
+
+    }
+
+    .main .right{
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .main .right .recording-area {
+        max-width: 300px;
+        max-height: 200px;
+    }
+    .options{
+       font-size: 10px;
+       gap: 1px;
+    }
     
+
 }
