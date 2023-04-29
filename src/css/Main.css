@@ -1,11 +1,13 @@
 .main {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     font-family: 'Castoro Titling', cursive;
 }
 
 .main .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-width: 20vw;
     min-height: 90vh;
     background-color: rgba(7, 7, 35, 0.993);
@@ -46,7 +48,6 @@
     color: white;
     padding: 5px;
     border-radius: 10px;
-    font-weight: bolder;
 }
 
 .options {
@@ -64,4 +65,39 @@ button {
     cursor: pointer;
     color: white;
     font-weight: bolder;
+}
+
+
+
+@media (530px <= width <= 940px){
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main .left{
+        width:100vw;
+        min-height:10vh;
+
+    }
+
+    .main .right{
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .main .right .recording-area {
+        max-width: 700px;
+        max-height: 500px;
+    }
+
+    .options{
+        display: flex;
+        flex-wrap: wr;
+        width: 100px;
+    }
+    
+}
+
+@media screen and (max-width:940px) and (min-width) {
+    
 }

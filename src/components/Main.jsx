@@ -48,7 +48,7 @@ export default function Main() {
 
                     {mediaBlobUrl && (
                         <>
-                            <video src={mediaBlobUrl} controls autoPlay loop style={{ height: '250px', width: '400px' }} />
+                            <video src={mediaBlobUrl} controls autoPlay loop style={{ height: '100%', width: '100%' }} />
                             <a href={mediaBlobUrl} download>download</a>
                         </>
                     )}
