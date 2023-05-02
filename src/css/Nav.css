@@ -14,6 +14,7 @@
     padding: 20px;
 }
 @media (200px <= width <= 529px){
+    .nav{}
 .nav .social{
     display: none;
 }
